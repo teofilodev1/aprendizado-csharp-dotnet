@@ -8,7 +8,7 @@ public class Program
         string nome = Console.ReadLine();
         int letras = nome.Length;
 
-        Console.WriteLine($"Olá { nome }, seu nome tem { letras } caracterese no nome");
+        Console.WriteLine($"\nOlá { nome }, seu nome tem { letras } caracterese no nome");
     }
 
 }
