@@ -25,4 +25,9 @@ jobs:
         run: dotnet build --no-restore
 
       - name: Testes
-        run: dotnet test --no-build --verbosity normal
+        run: |
+                if [ -f "*.sln" ] || find . -name "*.csproj" | grep -q Test; then
+                dotnet test --no-build --verbosity normal
+                else
+                echo "Nenhum projeto de teste encontrado ainda, pulando..."
+                fi
