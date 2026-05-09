@@ -32,11 +32,18 @@ jobs:
 
       - name: Rodar testes
         run: |
-          TESTES=$(find . -name "*.csproj" -not -path "*/bin/*" -not -path "*/obj/*" | xargs grep -l "xunit\|MSTest\|NUnit" 2>/dev/null)
+          TESTES=""
+          while IFS= read -r proj; do
+            if grep -qE "xunit|MSTest|NUnit" "$proj" 2>/dev/null; then
+              TESTES="$TESTES $proj"
+            fi
+          done < <(find . -name "*.csproj" -not -path "*/bin/*" -not -path "*/obj/*")
+
           if [ -z "$TESTES" ]; then
             echo "Nenhum projeto de teste encontrado ainda — pulando testes."
             exit 0
           fi
+
           for proj in $TESTES; do
             echo ">>> Testando: $proj"
             dotnet test "$proj" --configuration Release --verbosity normal
