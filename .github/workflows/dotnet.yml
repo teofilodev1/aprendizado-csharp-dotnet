@@ -1,5 +1,4 @@
-# .github/workflows/dotnet.yml
-name: .NET Tests
+name: .NET Build & Tests
 
 on:
   push:
@@ -8,8 +7,9 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -18,16 +18,26 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-      - name: Restaurar dependências
-        run: dotnet restore
-
-      - name: Build
-        run: dotnet build --no-restore
-
-      - name: Testes
+      - name: Build todos os projetos
         run: |
-                if [ -f "*.sln" ] || find . -name "*.csproj" | grep -q Test; then
-                dotnet test --no-build --verbosity normal
-                else
-                echo "Nenhum projeto de teste encontrado ainda, pulando..."
-                fi
+          PROJETOS=$(find . -name "*.csproj" -not -path "*/bin/*" -not -path "*/obj/*")
+          if [ -z "$PROJETOS" ]; then
+            echo "Nenhum .csproj encontrado ainda — pulando build."
+            exit 0
+          fi
+          for proj in $PROJETOS; do
+            echo ">>> Buildando: $proj"
+            dotnet build "$proj" --configuration Release
+          done
+
+      - name: Rodar testes
+        run: |
+          TESTES=$(find . -name "*.csproj" -not -path "*/bin/*" -not -path "*/obj/*" | xargs grep -l "xunit\|MSTest\|NUnit" 2>/dev/null)
+          if [ -z "$TESTES" ]; then
+            echo "Nenhum projeto de teste encontrado ainda — pulando testes."
+            exit 0
+          fi
+          for proj in $TESTES; do
+            echo ">>> Testando: $proj"
+            dotnet test "$proj" --configuration Release --verbosity normal
+          done 
