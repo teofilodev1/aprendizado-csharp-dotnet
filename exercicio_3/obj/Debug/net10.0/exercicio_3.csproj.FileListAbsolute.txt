@@ -1,0 +1,15 @@
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\obj\Debug\net10.0\exercicio_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\obj\Debug\net10.0\exercicio_3.AssemblyInfoInputs.cache
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\obj\Debug\net10.0\exercicio_3.AssemblyInfo.cs
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\obj\Debug\net10.0\exercicio_3.csproj.CoreCompileInputs.cache
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\obj\Debug\net10.0\exercicio_3.sourcelink.json
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\bin\Debug\net10.0\exercicio_3.exe
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\bin\Debug\net10.0\exercicio_3.deps.json
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\bin\Debug\net10.0\exercicio_3.runtimeconfig.json
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\bin\Debug\net10.0\exercicio_3.dll
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\bin\Debug\net10.0\exercicio_3.pdb
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\obj\Debug\net10.0\exercicio_3.dll
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\obj\Debug\net10.0\refint\exercicio_3.dll
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\obj\Debug\net10.0\exercicio_3.pdb
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\obj\Debug\net10.0\exercicio_3.genruntimeconfig.cache
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\exercicio_3\obj\Debug\net10.0\ref\exercicio_3.dll
