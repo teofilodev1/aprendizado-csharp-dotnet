@@ -14,7 +14,7 @@ public class Program
             Console.WriteLine($"{a} x {i} = {a * i}");
         }
 
-        Console.WriteLine("====================");
+        Console.WriteLine("=====================");
         Console.WriteLine($"Tabuada do Numero: {a}");
         while (contador <= 10)
         {
