@@ -1,0 +1,15 @@
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\bin\Debug\net10.0\ConsoleApp_Logica.exe
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\bin\Debug\net10.0\ConsoleApp_Logica.deps.json
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\bin\Debug\net10.0\ConsoleApp_Logica.runtimeconfig.json
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\bin\Debug\net10.0\ConsoleApp_Logica.dll
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\bin\Debug\net10.0\ConsoleApp_Logica.pdb
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\obj\Debug\net10.0\ConsoleApp_Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\obj\Debug\net10.0\ConsoleApp_Logica.AssemblyInfoInputs.cache
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\obj\Debug\net10.0\ConsoleApp_Logica.AssemblyInfo.cs
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\obj\Debug\net10.0\ConsoleApp_Logica.csproj.CoreCompileInputs.cache
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\obj\Debug\net10.0\ConsoleApp_Logica.sourcelink.json
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\obj\Debug\net10.0\ConsoleApp_Logica.dll
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\obj\Debug\net10.0\refint\ConsoleApp_Logica.dll
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\obj\Debug\net10.0\ConsoleApp_Logica.pdb
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\obj\Debug\net10.0\ConsoleApp_Logica.genruntimeconfig.cache
+C:\Users\joaop\Documents\MeusProjetos\Estudos\aprendizado-csharp-dotnet\ConsoleApp_Logica\obj\Debug\net10.0\ref\ConsoleApp_Logica.dll
